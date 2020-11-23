@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
-import AppNavBar from './components/AppNavBar';
-import homeSection from './components/home';
+import AppNavBar from './componets/AppNavBar';
+import ShoppingList from './componets/ShoppingList';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import {Provider} from 'react-redux';
-import store from './components/store';
+import store from './componets/store';
 import {Container} from 'reactstrap';
 import {loadUser} from './actions/authActions';
 
@@ -19,7 +19,7 @@ class App extends Component {
         <div className = "App">
           <AppNavBar/>
           <Container>
-            <homeSection />
+            <ShoppingList />
           </Container>
         </div>
       </Provider>

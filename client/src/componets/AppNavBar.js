@@ -12,7 +12,7 @@ import {
     Container,
     NavbarBrand
 } from 'reactstrap';
-import RegisterModel from './auth/registerModel';
+import RegisterModel from './auth/register';
 import Logout from './auth/logout';
 
 class AppNavbar extends Component {

@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://Andre:Andre6227@project2-popi.kivhz.mongodb.net/dbProject?retryWrites=true&w=majority",
+    "jwtSecret": "myjwtSecret"
+}
